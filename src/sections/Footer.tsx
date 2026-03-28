@@ -48,7 +48,7 @@ export function Footer() {
                   resolvedTheme === 'dark' ? 'text-white' : 'text-slate-900'
                 }`}
               >
-                Creative<span className="text-primary-500">Dev</span>
+                Santhosh<span className="text-primary-500"> V</span>
               </span>
             </motion.a>
             <p
