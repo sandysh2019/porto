@@ -1,152 +1,68 @@
-# Premium Portfolio Website
+![Screenshot_28-3-2026_123419_santholio vercel app](https://github.com/user-attachments/assets/7e65aa73-ec4a-4f33-8241-92c24fe4b546)# 🎨 Premium Portfolio Website
+### Graphic Designer & Full Stack Developer Dual-Role Portfolio
 
-A stunning, fully-responsive portfolio website for a dual-role professional - Graphic Designer & Full Stack Developer. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-![Portfolio Preview](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200)
+A stunning, fully-responsive portfolio website designed for professionals balancing high-end **Graphic Design** and robust **Full Stack Development**. 
 
-## Features
+![Portfolio Preview](https://github.com/user-attachments/assets/caccb18a-0a4e-45b7-86a4-4db8e25bfede)
 
-### Design & UX
-- **Glassmorphism Design** - Translucent panels with backdrop blur effects
-- **Dark/Light Mode** - Seamless theme switching with animated toggle
-- **Smooth Animations** - Framer Motion powered scroll reveals and micro-interactions
-- **Responsive Layout** - Mobile-first design that works on all devices
+## ✨ Features
 
-### Sections
-1. **Hero** - High-impact introduction with dual-threat value proposition
-2. **Projects** - Dynamic masonry grid showcasing recent work
-3. **Services & Pricing** - Glassmorphic pricing cards with tabs for Design, Development, and Custom Features
-4. **Contact** - Functional contact form with WhatsApp integration
-5. **Admin Panel** - Protected CMS for managing projects and viewing messages
+### 💎 Design & UX
+* **Glassmorphism:** Translucent UI panels with advanced backdrop-blur effects.
+* **Theme Switcher:** Seamless Dark/Light mode transitions with an animated toggle.
+* **Smooth Motion:** Scroll-triggered reveals and micro-interactions powered by **Framer Motion**.
+* **Responsive:** Mobile-first architecture built for every screen size.
 
-### Tech Stack
-- React 18 + TypeScript
-- Vite (Build Tool)
-- Tailwind CSS 3
-- Framer Motion
-- shadcn/ui Components
-- Lucide React Icons
-- react-masonry-css
+### 🧩 Sections
+* **Hero:** Impactful introduction with a dual-threat value proposition.
+* **Projects:** Dynamic **Masonry Grid** for showcasing varied design/dev work.
+* **Services & Pricing:** Glassmorphic cards with tabs for Design, Dev, and Custom Features.
+* **Contact:** Functional form with direct **WhatsApp** API integration.
+* **Admin Panel:** A secure dashboard to manage content without editing code.
 
-## Admin Panel
+---
 
-### Default Credentials
-- **Username:** `admin`
-- **Password:** `portfolio2026`
+## 🛠️ Tech Stack
 
-### Features
-- **Projects Management** - Create, Read, Update, Delete portfolio projects
-- **Messages** - View contact form submissions
-- **Local Storage** - All data persists in browser localStorage
+| Tool | Usage |
+| :--- | :--- |
+| **React 18** | UI Library |
+| **TypeScript** | Static Typing |
+| **Vite** | Build Tool & Bundler |
+| **Tailwind CSS** | Utility-first Styling |
+| **shadcn/ui** | Accessible Component Library |
+| **Lucide React** | Icon Suite |
+| **localStorage** | Client-side Data Persistence |
 
-## Services & Pricing
+---
 
-### Graphic Design Packages
-- **Identity Starter:** ₹15,000 – ₹25,000
-- **Brand Pro:** ₹40,000 – ₹65,000
-- **The Creative Suite:** ₹80,000+
+## 🔐 Admin Panel
 
-### Full Stack Development
-- **MVP / Portfolio:** ₹45,000 – ₹75,000
-- **Business Hub:** ₹1,20,000 – ₹2,50,000
-- **SaaS / E-commerce:** ₹4,00,000+
+The site includes a built-in CMS for real-time project management.
 
-### Custom Features
-- Payment Gateway Integration: ₹15,000+
-- Custom User Dashboard: ₹45,000+
-- Third-Party API Integration: ₹12,000 – ₹30,000
-- Real-time Capabilities: ₹35,000+
-- Advanced PWA Setup: ₹20,000+
+* **URL:** `yourdomain.com/#admin`
+* **Default Username:** `admin`
+* **Default Password:** `portfolio2026`
 
-## Getting Started
+> [!TIP]
+> Use the Admin Panel to **Create, Read, Update, and Delete** projects or view submitted contact messages.
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn
+* Node.js 18+
+* npm / yarn / pnpm
 
 ### Installation
 
-1. Clone or download the project
-```bash
-cd app
-```
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Start development server
-```bash
-npm run dev
-```
-
-4. Build for production
-```bash
-npm run build
-```
-
-## Customization
-
-### Changing Personal Information
-Edit the content directly in the section files:
-- `src/sections/Hero.tsx` - Hero section content
-- `src/sections/Services.tsx` - Pricing and services
-- `src/sections/Contact.tsx` - Contact information
-
-### Adding Projects
-1. Navigate to the Admin panel (`#admin`)
-2. Login with credentials
-3. Click "Add Project"
-4. Fill in project details
-5. Save
-
-### Changing Admin Credentials
-Edit the `defaultCredentials` object in `src/sections/Admin.tsx`:
-```typescript
-const defaultCredentials = {
-  username: 'your-username',
-  password: 'your-password',
-};
-```
-
-### Changing WhatsApp Number
-Edit the `whatsappLink` in `src/sections/Contact.tsx`:
-```typescript
-const whatsappLink = `https://wa.me/YOUR_NUMBER?text=${whatsappMessage}`;
-```
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── ui/           # shadcn/ui components
-│   ├── Navigation.tsx
-│   └── ThemeProvider.tsx
-├── sections/
-│   ├── Hero.tsx
-│   ├── Projects.tsx
-│   ├── Services.tsx
-│   ├── Contact.tsx
-│   ├── Admin.tsx
-│   └── Footer.tsx
-├── types/
-│   └── index.ts
-├── lib/
-│   └── utils.ts
-├── App.tsx
-├── index.css
-└── main.tsx
-```
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
-
-## Credits
-
-- Design & Development: CreativeDev
-- Icons: [Lucide React](https://lucide.dev)
-- UI Components: [shadcn/ui](https://ui.shadcn.com)
-"# porto" 
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/yourusername/porto.git](https://github.com/yourusername/porto.git)
+   cd porto
