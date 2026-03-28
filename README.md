@@ -1,4 +1,4 @@
-![Screenshot_28-3-2026_123419_santholio vercel app](https://github.com/user-attachments/assets/7e65aa73-ec4a-4f33-8241-92c24fe4b546)# 🎨 Premium Portfolio Website
+
 ### Graphic Designer & Full Stack Developer Dual-Role Portfolio
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -8,7 +8,7 @@
 
 A stunning, fully-responsive portfolio website designed for professionals balancing high-end **Graphic Design** and robust **Full Stack Development**. 
 
-![Portfolio Preview](https://github.com/user-attachments/assets/caccb18a-0a4e-45b7-86a4-4db8e25bfede)
+![Portfolio Preview](https://github.com/user-attachments/assets/e5f78ff4-da6a-44f5-aa96-b9ddad0502f7)
 
 ## ✨ Features
 
