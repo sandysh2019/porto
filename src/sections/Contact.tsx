@@ -142,7 +142,7 @@ export function Contact() {
                         resolvedTheme === 'dark' ? 'text-white' : 'text-slate-900'
                       }`}
                     >
-                      santhoshwe2007@gmail.xom
+                      santhoshwe2007@gmail.com
                     </p>
                   </div>
                 </div>
